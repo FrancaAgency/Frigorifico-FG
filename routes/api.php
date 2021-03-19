@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\api\PostController;
+use App\Http\Controllers\api\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::resource('/post',PostController::class)->only([
     'index', 'show'
-]);;
+]);
+
+Route::get('post/{category}/category',[App\Http\Controllers\api\PostController::class ,'category']);
+Route::get('category',[App\Http\Controllers\api\CategoryController::class ,'index']);
+Route::get('category/all',[App\Http\Controllers\api\CategoryController::class ,'all']);
