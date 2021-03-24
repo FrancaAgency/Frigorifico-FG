@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\dashboard\UserController;
+
 use App\Http\Controllers\dashboard\PostController;
+use App\Http\Controllers\dashboard\UserController;
+use App\Http\Controllers\web\WebController;
 use App\Http\Controllers\dashboard\CategoryController;
 
 /*
@@ -16,9 +18,7 @@ use App\Http\Controllers\dashboard\CategoryController;
 |
 */
 
-Route::get('/', function () {//Ruta principal
-    return view('welcome');
-})->name('home');
+
 
 /*Route::get('/test', function(){ //Ruta basica 
     return 'Hola mundo';
@@ -46,6 +46,8 @@ Route::resource('dashboard/post', PostController::class);
 Route::post('dashboard/post/{post}/image',[PostController::class,'image'])->name('post.image');
 Route::resource('dashboard/category', CategoryController::class);
 Route::resource('dashboard/user', UserController::class);
+Route::get('/',[App\Http\Controllers\web\WebController::class,'index'])->name('index');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
