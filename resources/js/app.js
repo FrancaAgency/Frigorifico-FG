@@ -30,6 +30,33 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
     data: {
-        message: 'Hola mundo en Vue'
+        message: 'Hello Vue!',
+        posts: [
+            {
+                title:'Titulo 1',
+                images:'1609356636.png',
+                content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+            },
+            {
+                title:'Titulo 2',
+                images:'1609356636.png',
+                content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+            },
+            {
+                title:'Titulo 3',
+                images:'1609356636.png',
+                content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+            },
+            {
+                title:'Titulo 4',
+                images:'1609356636.png',
+                content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+            },
+            {
+                title:'Titulo 5',
+                images:'1609356636.png',
+                content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+            },
+        ],
       }
 });
