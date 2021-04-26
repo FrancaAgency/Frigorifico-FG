@@ -30,7 +30,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
     data: {
-        message: 'Hello Vue! Dev',
+        message: 'Hello Vue! Dev sfsfasdf loca dddd el pepe',
         posts: [
             {
                 title:'Titulo 1',
@@ -58,9 +58,9 @@ const app = new Vue({
                 content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
             },
             {
-                title:'Titulo 5',
+                title:'Titulo 6',
                 images:'1609356636.png',
-                content:'* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+                content:'* Next, we will 11992 create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
             },
         ],
       }
