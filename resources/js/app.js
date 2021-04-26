@@ -31,7 +31,7 @@ const app = new Vue({
     el: '#app',
     data: {
         message: 'Hello Vue!',
-        posts: [
+        postss: [
             {
                 title:'Titulo 1',
                 images:'1609356636.png',
