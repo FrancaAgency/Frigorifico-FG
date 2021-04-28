@@ -49751,7 +49751,7 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'Hello Vue!',
+    message: 'Hello Vue! Dev sfsfasdf loca dddd el pepe',
     posts: [{
       title: 'Titulo 1',
       images: '1609356636.png',
@@ -49772,6 +49772,10 @@ var app = new Vue({
       title: 'Titulo 5',
       images: '1609356636.png',
       content: '* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+    }, {
+      title: 'Titulo 6',
+      images: '1609356636.png',
+      content: '* Next, we will 11992 create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
     }]
   }
 });
@@ -49910,8 +49914,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\juang\documents\github\Frigorifico-FG\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\juang\documents\github\Frigorifico-FG\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\juang\Documents\GitHub\Frigorifico-FG\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\juang\Documents\GitHub\Frigorifico-FG\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
