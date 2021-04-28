@@ -49723,9 +49723,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
+/*@ -4,64 +4,32 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
@@ -49751,7 +49749,7 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'Hello Vue! Dev sfsfasdf loca dddd el pepe',
+    message: 'Hello Vue!',
     posts: [{
       title: 'Titulo 1',
       images: '1609356636.png',

@@ -29,7 +29,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
     data: {
-        message: 'Hello Vue! Dev sfsfasdf loca dddd el pepe',
+        message: 'Hello Vue!',
         posts: [
             {
                 title:'Titulo 1',

@@ -10903,3 +10903,12 @@ a.text-dark:focus {
   }
 }
 
+.card {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.bg-dark {
+  background-color: #BF3B27 !important;
+}
+
