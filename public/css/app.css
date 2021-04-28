@@ -10912,3 +10912,21 @@ a.text-dark:focus {
   background-color: #BF3B27 !important;
 }
 
+.navbar2 {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 82px;
+  height: 72px;
+  margin-left: 16%;
+}
+
+.leng {
+  width: 144px;
+  height: 32px;
+}
+

@@ -7,6 +7,7 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 $color-fondo-footer:#BF3B27;
+$color-fondo-Navbar2:#FFFFFF;
 
 .card
 {
@@ -18,3 +19,24 @@ $color-fondo-footer:#BF3B27;
 {
     background-color: $color-fondo-footer !important;
 }
+
+.navbar2
+{
+    background-color: $color-fondo-Navbar2 ;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.logo
+{
+    width: 82px;
+    height: 72px;
+    margin-left: 16%;
+}
+
+.leng{
+    width: 144px;
+    height: 32px;
+}
+

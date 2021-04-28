@@ -9,7 +9,7 @@
 </head>
 <body>
 @include('web.partials.nav-header-main')
-    <div class="container" id="app">
+    <div class="container  p-3" id="app">
         <div class="col-md-12">
              @yield('content')
         </div>
