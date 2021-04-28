@@ -1,10 +1,9 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
+/*@ -4,64 +4,32 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+
+ require('./bootstrap');
 
 window.Vue = require('vue');
 
