@@ -10930,3 +10930,14 @@ a.text-dark:focus {
   height: 32px;
 }
 
+.btn-outline-success {
+  color: #FFFFFF;
+  border-color: #BF3B27;
+  background-color: #BF3B27;
+  border-radius: 0px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
