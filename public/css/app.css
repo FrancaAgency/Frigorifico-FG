@@ -10903,6 +10903,11 @@ a.text-dark:focus {
   }
 }
 
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .card {
   margin-top: 100px;
   margin-bottom: 10px;
@@ -10939,5 +10944,55 @@ a.text-dark:focus {
 
 .form-control {
   border-radius: 0px;
+}
+
+.btn-dark {
+  background-color: transparent;
+  color: #BF3B27;
+  border-color: #BF3B27;
+}
+
+.btn-dark:hover {
+  background-color: transparent;
+  color: #BF3B27;
+  border-color: #BF3B27;
+}
+
+.btn-check:focus + .btn-dark,
+.btn-dark:focus {
+  background-color: transparent;
+  color: #BF3B27;
+  border-color: #BF3B27;
+  box-shadow: 0 0 0 0.25rem rgba(191, 59, 39, 0.5);
+}
+
+.btn-check:checked + .btn-dark,
+.btn-check:active + .btn-dark,
+.btn-dark:active,
+.btn-dark.active,
+.show > .btn-dark.dropdown-toggle {
+  background-color: transparent;
+  color: #BF3B27;
+  border-color: #BF3B27;
+}
+
+.btn-check:checked + .btn-dark:focus,
+.btn-check:active + .btn-dark:focus,
+.btn-dark:active:focus,
+.btn-dark.active:focus,
+.show > .btn-dark.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(191, 59, 39, 0.5);
+}
+
+.btn-dark:disabled,
+.btn-dark.disabled {
+  background-color: transparent;
+  color: #BF3B27;
+  border-color: #BF3B27;
+}
+
+.texto {
+  color: #3C322D;
+  text-transform: uppercase;
 }
 

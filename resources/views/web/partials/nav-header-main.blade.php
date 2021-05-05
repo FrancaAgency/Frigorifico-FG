@@ -1,9 +1,13 @@
 <div class="navbar2">
   <div class="row">
-    <div class="col-md-4  p-3">
+    <div class="col-md-3  p-3">
         <img src="{{asset('images/logo.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top logo">
     </div>
-    <div class="col-md-4  p-3">
+    <div class="col-md-3  p-3">
+        <a href="#" class="btn btn-dark btn-lg " tabindex="-1" role="button"> <i class="bi bi-person"></i>
+          portal clientes</a>
+    </div>
+    <div class="col-md-3  p-3">
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">
@@ -13,10 +17,11 @@
         </button>
       </form>
     </div>
-    <div class="col-md-4  p-3">
+    <div class="col-md-3  p-3">
       <img src="{{asset('images/leng.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top leng"></div>
   </div>
 </div>
+<!--Inicia el segundo  navBar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
   <div class="container-fluid">
     <a class="navbar-brand  text-white" href="{{ route('home')}}">Larablog</a>

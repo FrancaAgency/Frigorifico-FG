@@ -49751,29 +49751,17 @@ var app = new Vue({
   data: {
     message: 'Hello Vue!',
     posts: [{
-      title: 'Titulo 1',
-      images: '1609356636.png',
-      content: '* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+      images: 'img1.png',
+      content: 'Feria Ganadera'
     }, {
-      title: 'Titulo 2',
-      images: '1609356636.png',
-      content: '* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+      images: 'img2.png',
+      content: 'Sacrificio bovino'
     }, {
-      title: 'Titulo 3',
-      images: '1609356636.png',
-      content: '* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+      images: 'img3.png',
+      content: 'SACRIFICIO porcino'
     }, {
-      title: 'Titulo 4',
-      images: '1609356636.png',
-      content: '* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
-    }, {
-      title: 'Titulo 5',
-      images: '1609356636.png',
-      content: '* Next, we will create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
-    }, {
-      title: 'Titulo 6',
-      images: '1609356636.png',
-      content: '* Next, we will 11992 create a fresh Vue application instance and attach it to * the page. Then, you may begin adding components to this application * or customize the JavaScript scaffolding to fit your unique needs.'
+      images: 'img4.png',
+      content: 'central de carnes'
     }]
   }
 });
