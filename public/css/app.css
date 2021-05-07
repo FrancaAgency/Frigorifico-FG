@@ -10987,7 +10987,10 @@ body {
   overflow-x: hidden;
   height: 100vh;
   text-align: center;
-  background-image: url(/images/fondo.png?c07b4b99040e93c56ef637a8058a7f84);
+  background: url(/images/fondo.png);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
