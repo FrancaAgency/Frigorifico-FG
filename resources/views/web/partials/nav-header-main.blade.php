@@ -4,8 +4,9 @@
         <img src="{{asset('images/logo.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top logo">
     </div>
     <div class="col-md-3  p-3">
-        <a href="#" class="btn btn-dark btn-lg " tabindex="-1" role="button"> <i class="bi bi-person"></i>
-          portal clientes</a>
+      <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="bi bi-person"></i>portal clientes
+      </button>
     </div>
     <div class="col-md-3  p-3">
       <form class="d-flex">
