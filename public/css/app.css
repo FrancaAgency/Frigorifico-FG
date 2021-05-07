@@ -10987,6 +10987,8 @@ body {
   overflow-x: hidden;
   height: 100vh;
   text-align: center;
+  background-image: url(/images/fondo.png?c07b4b99040e93c56ef637a8058a7f84);
+  background-attachment: fixed;
 }
 
 .card {
@@ -11093,7 +11095,77 @@ video {
   padding: 10px 10px 10px 10px;
 }
 
-footer::after {
-  content: url(/images/pin.png?56606d5c986b61d0909bf1e9176216eb);
+footer {
+  position: fixed;
+  display: block;
+  height: 50px;
+  background-color: #BF3B27;
+  width: 100%;
+  z-index: 10;
+  bottom: 0;
+  color: #fff;
+  text-align: left;
+}
+
+.contenido-footer {
+  display: block;
+  padding: 50px 0 30px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  background-color: #22262a;
+}
+
+ul {
+  list-style: none;
+  font-family: robotolight;
+  font-size: 0.9em;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p span {
+  line-height: 0;
+}
+
+.titulo-contenido-footer {
+  font-family: brandon_textbold;
+  color: #BF3B27;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.footer-contenido {
+  text-transform: uppercase;
+  font-family: brandon_textregular;
+  font-size: 0.6em;
+  padding: 50px 50px 50px 50px;
+}
+
+.pin-foooter {
+  position: absolute;
+  top: -20px;
+  width: 60px;
+  height: 20px;
+  display: block;
+  left: 50%;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.pin {
+  width: 60px;
+  height: 20px;
+  background-color: #BF3B27;
+  text-align: center;
+}
+
+.bi-x {
+  font-size: 2.2rem;
+  left: 80%;
+  position: absolute;
+  z-index: 10;
 }
 
