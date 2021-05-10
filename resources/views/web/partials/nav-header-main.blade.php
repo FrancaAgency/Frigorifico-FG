@@ -1,7 +1,7 @@
 <div class="navbar2">
   <div class="row">
     <div class="col-md-3  p-3">
-        <img src="{{asset('images/logo.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top logo">
+        <a href="{{ route('index')}}"><img src="{{asset('images/logo.png')}}" alt="" width="30" height="24" class="d-inline-block align-text-top logo"></a>
     </div>
     <div class="col-md-3  p-3">
       <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -23,20 +23,71 @@
   </div>
 </div>
 <!--Inicia el segundo  navBar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white justify-content-center">
   <div class="container-fluid">
-    <a class="navbar-brand  text-white" href="{{ route('home')}}">Larablog</a>
-    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-white">
-        <li class="nav-item  text-white">
-          Home
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-white centrar">
+        <li class="nav-item dropdown  text-white padding">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            nosotros
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">nuestra historia</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">sostenibilidad</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">linea etica</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown  text-white padding">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Servicios fg
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="dropdown-item dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">bovinos</li>
+            <li><hr class="dropdown-divider"></li>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">nuestra historia</a></li>
+            </ul>
+          </ul>
+        </li>
+        <li class="nav-item text-white padding">
+          <a class="nav-link" href="#">
+            precios
+          </a>
+        </li>
+        <li class="nav-item dropdown  text-white padding">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           maestros fg
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown  text-white padding">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            blog
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown  text-white padding">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            contacto
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
         </li>
       </ul>
-      <ul class="navbar-nav  mb-2 mb-lg-0">
+      {{-- <ul class="navbar-nav  mb-2 mb-lg-0">
         <li class="nav-item active">
           <a class="nav-link" href="{{ route('logout') }}"
             onclick="event.preventDefault();
@@ -56,7 +107,7 @@
             <li><hr class="dropdown-divider"></li>
           </ul>
         </li>
-      </ul>
+      </ul> --}}
     </div>
   </div>
 </nav>

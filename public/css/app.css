@@ -11119,13 +11119,13 @@ footer {
   background-color: #22262a;
 }
 
-ul {
+.ul-footer {
   list-style: none;
   font-family: robotolight;
   font-size: 0.9em;
 }
 
-li {
+.li-footer {
   margin-bottom: 10px;
 }
 
@@ -11332,5 +11332,20 @@ p span {
   margin-top: 25px;
   font-family: robotobold;
   line-height: 2;
+}
+
+.centrar {
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: brandon_textbold;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.padding {
+  padding: 0px 70px 0px 0px;
 }
 

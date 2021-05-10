@@ -8,16 +8,16 @@
     </div>
       <div class="row">
         <div class="col-md-4">
-          <ul>
-            <li>
+          <ul class="ul-footer">
+            <li class="li-footer">
                <p class="titulo-contenido-footer">tel&eacute;fono</p>
                <span>+(57) 728 20 13</span>
             </li>
-            <li>
+            <li class="li-footer">
               <p class="titulo-contenido-footer">correo eletr&oacute;nico</p>
               <span>FG@CORREO.COM.CO</span>
             </li>
-            <li>
+            <li class="li-footer">
               <p class="titulo-contenido-footer">vis&iacute;tenos</p>
               <span>AUTOPISTA SUR N° 66 - 78. BOGOTÁ D.C., COLOMBIA</span>
             </li>
