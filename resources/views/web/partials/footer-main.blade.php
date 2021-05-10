@@ -1,11 +1,21 @@
 <footer>
   <!-- Grid container -->
-  <div class="contenido-footer">
-    <div class="row">
+  <div class="row">
+    <div class="col-md-6">
+      <figure>
+        <img src="{{asset('images/logo-blanco.png')}}" alt="logo blanco" class="img-fluid figure-img logo-blanco" >
+      </figure>
+    </div>
+    <div class="col-md-6">
+       <p class="texto-footer">Frigorífico Guadalupe. Todos los derechos reservados </p>
+    </div>
+  </div>
+  <div class="contenido-footer animate__animated animate__fadeInUp">
+    {{-- <div class="row">
       <div class="col-md-12">
         <i class="bi bi-x"></i>
       </div>
-    </div>
+    </div> --}}
       <div class="row">
         <div class="col-md-4">
           <ul class="ul-footer">

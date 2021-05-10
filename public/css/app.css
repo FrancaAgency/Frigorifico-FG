@@ -11028,6 +11028,13 @@ body {
   border-radius: 0px;
 }
 
+.btn-outline-success:hove {
+  color: #FFFFFF;
+  border-color: #BF3B27;
+  background-color: #BF3B27;
+  border-radius: 0px;
+}
+
 .form-control {
   border-radius: 0px;
 }
@@ -11101,7 +11108,7 @@ video {
 footer {
   position: fixed;
   display: block;
-  height: 50px;
+  height: 80px;
   background-color: #BF3B27;
   width: 100%;
   z-index: 10;
@@ -11114,9 +11121,10 @@ footer {
   display: block;
   padding: 50px 0 30px;
   position: absolute;
-  bottom: 50px;
+  bottom: 80px;
   width: 100%;
   background-color: #22262a;
+  z-index: 10;
 }
 
 .ul-footer {
@@ -11144,7 +11152,7 @@ p span {
   text-transform: uppercase;
   font-family: brandon_textregular;
   font-size: 0.6em;
-  padding: 50px 50px 50px 50px;
+  padding: 10px;
 }
 
 .pin-foooter {
@@ -11156,6 +11164,7 @@ p span {
   left: 50%;
   margin-left: -30px;
   cursor: pointer;
+  z-index: 11;
 }
 
 .pin {
@@ -11163,13 +11172,6 @@ p span {
   height: 20px;
   background-color: #BF3B27;
   text-align: center;
-}
-
-.bi-x {
-  font-size: 2.2rem;
-  left: 80%;
-  position: absolute;
-  z-index: 10;
 }
 
 .modal {
@@ -11347,5 +11349,28 @@ p span {
 
 .padding {
   padding: 0px 70px 0px 0px;
+}
+
+.logo-blanco {
+  padding: 15px;
+  margin-left: 75%;
+}
+
+.texto-footer {
+  font-size: 0.8rem;
+  font-family: brandon_textbold;
+  text-transform: uppercase;
+  padding: 25px;
+}
+
+@media (max-width: 768px) {
+  .logo-blanco {
+    padding: 15px;
+    margin-left: 25%;
+  }
+
+  footer {
+    height: auto;
+  }
 }
 
