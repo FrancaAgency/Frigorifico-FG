@@ -46,12 +46,9 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Servicios fg
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li class="dropdown-item dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">bovinos</li>
-            <li><hr class="dropdown-divider"></li>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">nuestra historia</a></li>
-            </ul>
+          <ul class="dropdown-menu" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="dropdown-item dropdown-toggle" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">bovinos</a>
+              <li><a class="dropdown-item " href="#">SACRIFICIO BOVINO</a></li>
           </ul>
         </li>
         <li class="nav-item text-white padding">
@@ -64,8 +61,11 @@
            maestros fg
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><a class="dropdown-item" href="#">Maestros Porcicultores</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Maestros Ganaderos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Maestros de la carne</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown  text-white padding">
@@ -73,8 +73,11 @@
             blog
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><a class="dropdown-item" href="#">actualidad</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">ventajas de la carne</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">cortes</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown  text-white padding">
@@ -82,8 +85,13 @@
             contacto
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><a class="dropdown-item" href="#">contáctenos</a></li>
             <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">trabaje con nosotros</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">vincúlESE como cliente</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">pqr</a></li>
           </ul>
         </li>
       </ul>
