@@ -126,7 +126,7 @@
 $color-fondo-footer:#BF3B27;
 $color-fondo-Navbar2:#FFFFFF;
 $color-de-imagenes-cuerpo:#3C322D;
-
+$colo-fondo-body:#F60;
 body{
     overflow-x: hidden;
     height: 100vh;
@@ -484,6 +484,7 @@ p span{
    padding: 15px;
    margin-left:75%;
 }
+
 .texto-footer
 {
   font-size: .8rem;
@@ -491,15 +492,17 @@ p span{
     text-transform: uppercase;
     padding: 25px;
 }
+
+
 @media(max-width:768px){
-  .logo-blanco
-  {
+    .logo-blanco
+    {
      padding: 15px;
      margin-left:25%;
-  }
+    }
 
-  footer
-  {
+    footer
+    {
     height: auto;
-  }
+    }
   }
