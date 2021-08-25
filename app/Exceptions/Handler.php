@@ -1,12 +1,18 @@
 <?php
-
+ 
 namespace App\Exceptions;
-
-use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+ 
 use Throwable;
-
+use App\Traits\ApiResponse;
+use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+ 
 class Handler extends ExceptionHandler
 {
+ 
+    use ApiResponse;
     /**
      * A list of the exception types that are not reported.
      *
@@ -15,27 +21,57 @@ class Handler extends ExceptionHandler
     protected $dontReport = [
         //
     ];
-
+ 
     /**
      * A list of the inputs that are never flashed for validation exceptions.
      *
      * @var array
      */
     protected $dontFlash = [
-        'current_password',
         'password',
         'password_confirmation',
     ];
-
+ 
     /**
-     * Register the exception handling callbacks for the application.
+     * Report or log an exception.
      *
+     * @param  \Exception  $exception
      * @return void
      */
-    public function register()
+    public function report(Throwable  $exception)
     {
-        $this->reportable(function (Throwable $e) {
-            //
-        });
+        parent::report($exception);
+    }
+ 
+    /**
+     * Render an exception into an HTTP response.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Exception  $exception
+     * @return \Illuminate\Http\Response
+     */
+    public function render($request, Throwable $exception)
+    {
+        // dd($exception);
+ 
+       // dd($request->path());
+ 
+      //dd(Str::contains($request->path(),'api/'));
+ 
+     /* return $this->errorResponse("Página no encontrada", $code = 404, $msj = 'Página no encontrada');*/
+ 
+        if (env('APP_ENV') == 'local' || !Str::contains($request->path(),'api/')) {
+            return parent::render($request, $exception);
+        }
+        echo env('APP_ENV');
+        if ($exception instanceof NotFoundHttpException) {
+            return $this->errorResponse("Página no encontrada", $code = 404, $msj = 'Página no encontrada');
+        }
+ 
+        if ($exception instanceof ModelNotFoundException) {
+            return $this->errorResponse("Recurso no encontrado", $code = 404, $msj = 'Recurso no encontrado');
+        }
+ 
+        return parent::render($request, $exception);
     }
 }
